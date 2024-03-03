@@ -8,7 +8,7 @@ const chatRoutes = require("./routes/chatRoutes");
 const app = express();
 app.use(cors(
     {
-        origin: ["https://info-mate-frontend.vercel.app/"],
+        origin: ["https://info-mate-frontend.vercel.app"],
         methods: ["POST"],
         credentials: true,
     }
