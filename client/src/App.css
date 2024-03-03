@@ -1,0 +1,8 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.span-bg {
+    background-color: #86BBD8;
+}

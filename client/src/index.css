@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #001524;
+}
+
+.span {
+    color: #FFECD1;
+    font-size: 50px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn {
+    background-color: #159977;
+    color: #ececf1;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 50px;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.text {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.chatgpt-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin: 30px 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 60%;
+    padding: 20px;
+}
+
+.response {
+    background-color: #001524;
+    color: #ffffff;
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 20px;
+    white-space: pre-wrap;
+    
+}
