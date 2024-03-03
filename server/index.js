@@ -6,7 +6,13 @@ const dotenv = require("dotenv");
 const chatRoutes = require("./routes/chatRoutes");
 
 const app = express();
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://info-mate-frontend.vercel.app/"],
+        methods: ["POST"],
+        credentials: true,
+    }
+));
 app.use(bodyParser.json());
 
 dotenv.config();
