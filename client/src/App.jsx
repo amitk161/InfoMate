@@ -23,7 +23,7 @@ function App() {
     e.preventDefault();
     setResponse('')
     setLoading(true);
-    const res = await axios.post('http://localhost:3000/chat', {prompt: prompt})
+    const res = await axios.post('https://vercel.com/amit-kumars-projects-21bf035e/info-mate-backend/7txhcYu9nG2VrHQayGYrhFcDjXrd/chat', {prompt: prompt})
     setResponse(res);
     setLoading(false);
     console.log(res);
