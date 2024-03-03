@@ -9,7 +9,7 @@ const app = express();
 app.use(cors(
     {
         origin: ["https://info-mate-frontend.vercel.app"],
-        methods: ["POST"],
+        methods: ["POST", "GET"],
         credentials: true,
     }
 ));
